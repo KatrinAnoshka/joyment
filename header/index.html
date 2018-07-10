@@ -75,12 +75,24 @@
 
 				<a class="tel" href="tel:+74993757535">+7 (499) 375-75-35</a>
 					
-				<div class="select">
+				<!-- <div class="select">
 					<select>
 					  	<option>Москва</option>
 					  	<option>Питер</option>
 					</select>
-				</div>
+				</div> -->
+
+				<td>
+                                <div class="pseudo-select">
+                                    <div class="select">Москва</div>
+                                    <div class="options">
+                                        <div value="/catalog/">Москва</div>
+                                        <div value="/spb/catalog/">Питер</div>      
+                                    </div>
+                                    <input type="text" class="hidden" name="" value="">
+                                </div>
+                            </td>
+
 				<p class="ru">RU</p>
 				<div class='switcher'>						
 					<label  class='switcher-label switcher-off' for='off1'>off</label>
@@ -248,8 +260,8 @@
 	<script src="libs/respond/respond.min.js"></script>
 	<![endif]-->
 
-	<!-- <script src="libs/jquery/jquery-1.11.2.min.js"></script>
-	<script src="libs/waypoints/waypoints.min.js"></script>
+	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<!-- <script src="libs/waypoints/waypoints.min.js"></script>
 	<script src="libs/animate/animate-css.js"></script>
 	<script src="libs/plugins-scroll/plugins-scroll.js"></script>
 	<script src="libs/slick/slick.min.js"></script> -->

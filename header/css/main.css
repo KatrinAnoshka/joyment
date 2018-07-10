@@ -68,7 +68,7 @@ header {
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
-	margin: 0 84px;
+	margin: 0 auto;
 	padding-top: 10px;
 	border-bottom: 1px solid rgb(64, 71, 90);
 }
@@ -148,7 +148,7 @@ header {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin: 0 84px;
+    margin: 0 auto;
     border-bottom: 1px solid rgb(64, 71, 90);
 }
 
@@ -192,7 +192,7 @@ header {
 
 /*Select*/
 
-.switcher, .ru {
+/*.switcher, .ru {
 	padding-right: 10px;
 }
 
@@ -225,6 +225,60 @@ select > option {
 .select select option {
 	color: #fff;
   	background-color: rgba(75, 16, 85, 1);
+}*/
+
+.pseudo-select .select {
+        cursor: pointer;
+    background: url(../img/bg-pseudo-select-str.png) 100% 50% no-repeat;
+    width: 155px;
+    text-align: center;
+}
+
+.pseudo-select input {
+    display: none;
+}
+
+.pseudo-select {
+   line-height: normal;
+    white-space: nowrap;
+    /* box-shadow: 0 2px 2px rgba(105,105,105,0.5); */
+    margin-right: 10px;
+    display: inline-block;
+    position: relative;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #dac12b;
+    font-size: 18px;
+    padding: 4px 13px 4px 1px;
+    border-radius: 2px;
+    margin-right: 38px;
+}
+
+.pseudo-select .options {
+    box-shadow: 0 2px 2px rgba(105,105,105,0.5); */
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    top: 33px;
+    left: -1px;
+    right: -1px;
+}
+
+.pseudo-select .options div {
+   cursor: pointer;
+    margin: 0 3px;
+    padding: 3px 6px;
+    border-bottom: 1px solid #dac12b;
+}
+
+.pseudo-select .options div.check, .pseudo-select .options div:hover {
+    color: #dac12b;
+}
+
+.pseudo-select .options {
+      background: transparent;
+    border: 1px solid #dac12b;
+    color: #fff;
 }
 
 /*Switcher*/
@@ -547,7 +601,7 @@ section h1 {
   display: block; }
 
 .people {
-  background: transparent url("../svg/people.svg") repeat scroll 0 0/17px auto;
+  background: transparent url("../img/people.svg") repeat scroll 0 0/17px auto;
   display: block;
   height: 12px;
   margin-bottom: 6px; }
@@ -581,6 +635,10 @@ section h1 {
 
 .people[data-count="10"] {
   width: 160px; }
+
+.people[data-count="12"] {
+    width: 202px;
+}
 
 .people_desc {
   font-family: "Open Sans";
