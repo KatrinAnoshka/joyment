@@ -21,5 +21,10 @@ $(document).ready(function() {
 		$(this).addClass('check');
 		$(this).parent().fadeOut('fast');
 	});
+
+/* Slider-main */
 	
+	$('.carousel').carousel({
+      interval: 6000
+    })
 });
