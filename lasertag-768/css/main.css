@@ -43,13 +43,13 @@ header {
     z-index: 2;
 }
 
-.header-top {
-    max-width: 1752px;
-    min-width: 768px;
+.header-top, .header-center {
+    max-width: 768px;
+    min-width: 375px;
     width: auto;
-    height: 73px;
-    padding-left: 20px;
-    padding-right: 20px;
+    height: 70px;
+    padding-left: 26px;
+    padding-right: 26px;
     display: -moz-flex;
     display: -ms-flex;
     display: -o-flex;
@@ -58,14 +58,18 @@ header {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     margin: 0 auto;
     padding-top: 10px;
     border-bottom: 1px solid rgb(64, 71, 90);
+}
+
+.header-center {
+    padding-left: 32px;
 }
 
 .top-left ul, .top-right ul, .bottom-left ul {
@@ -128,11 +132,11 @@ header {
 }
 
 .header-bottom {
-    max-width: 1752px;
-    min-width: 768px;
+    max-width: 768px;
+    min-width: 375px;
     width: auto;
-    height: 73px;
-    padding-left: 20px;
+    height: 70px;
+    padding-left: 26px;
     padding-right: 20px;
     display: -moz-flex;
     display: -ms-flex;
@@ -156,7 +160,7 @@ header {
 }
 
 .bottom-left a {
-    font-size: 18px;
+    font-size: 15px;
     font-family: "Open Sans", sans-serif;
     color: rgba(255, 255, 255, 1);
     padding-right: 18px;
@@ -176,15 +180,15 @@ header {
 }
 
 .bottom-right .tel {
-    font-size: 20px;
+    font-size: 15px;
     font-family: "Open Sans", sans-serif;
     color: #fff;
     padding-right: 46px;
     cursor: pointer;
 }
 
-.bottom-right p {
-    font-size: 18px;
+.header-center p {
+    font-size: 15px;
     font-family: "Open Sans", sans-serif;
     color: #fff;
     margin-bottom: 0;
@@ -195,7 +199,7 @@ header {
 .pseudo-select .select {
     cursor: pointer;
     background: url(../img/bg-pseudo-select-str.png) 100% 50% no-repeat;
-    width: 155px;
+    width: 106px;
     text-align: center;
 }
 
@@ -212,7 +216,7 @@ header {
     background: transparent;
     color: #fff;
     border: 1px solid #dac12b;
-    font-size: 18px;
+    font-size: 15px;
     padding: 4px 13px 4px 1px;
     border-radius: 2px;
     margin-right: 38px;
@@ -327,12 +331,12 @@ header {
 /*Header-bg*/
 
 .header-bg {
-    max-width: 100%;
-    height: 508px;
+    max-width: 768px;
+    width: auto;
+    height: 345px;
     background-image: url(../img/bg-lasertag.jpg);
     background-size: cover;
     background-position: center;
-    margin: 0 auto;
 }
 
 .header-bg-wrap {
@@ -347,34 +351,40 @@ header {
     -o-flex-direction: column;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-            flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    padding: 96px 0 80px 57px;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 42px 26px 26px;
 }
 
 .header-bg h1 {
-    font-size: 52px;
+    font-size: 31px;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     color: #fff;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .h1-text, .header-bg-bottom p {
-    font-size: 21px;
+    font-size: 18px;
     font-family: "Open Sans", sans-serif;
     color: #fff;
 }
 
 .header-bg-bottom p {
+    font-size: 15px;
+}
+
+.header-bg-bottom p {
     margin-bottom: 0;
+    margin-top: 20px;
 }
 
 .h1-text {
-    margin-bottom: 69px;
-    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-top: 18px;
 }
 
 .header-bg-bottom {
@@ -387,21 +397,21 @@ header {
     -moz-flex-direction: row;
     -ms-flex-direction: row;
     -o-flex-direction: row;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-            flex-direction: row;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    /* -webkit-box-orient: horizontal; */
+    /* -webkit-box-direction: normal; */
+    flex-direction: column;
+    /* -webkit-box-pack: start; */
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     -ms-align-items: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    /* align-items: center; */
 }
 
 button.booked {
-    width: 235px;
-    height: 71px;
+    width: 183px;
+    height: 63px;
     background-color: #FEE938;
     color: #000;
     font-size: 21px;
@@ -421,7 +431,9 @@ button.booked:hover {
 /*Section-menu*/
 
 .section-menu {
-    width: 758px;
+    max-width: 712px;
+    min-width: 375px;
+    width: auto;
     height: 72px;
     margin: 0 auto;
     border-bottom: 2px solid #3BC0C7;
@@ -481,15 +493,16 @@ button.booked:hover {
 /*Section-lzt-descr*/
 
 .section-lzt-descr {
-    width: 1150px;
+    max-width: 1150px;
+    width: auto;
     margin: 0 auto;
-    padding-top: 95px;
+    padding: 95px 26px 0;
     position: relative;
     z-index: 2;
 }
 
 section h2 {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 400;
     font-family: "Open Sans", sans-serif;
     color: #fff;
@@ -575,11 +588,11 @@ a {
 /* Container */
 .container-fluid {
     background: transparent;
-    margin: 56px auto 10px;
+    margin: 35px auto 10px;
     padding: 20px 40px 0;
     max-width: 1752px;
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 /* Thumbnail Box */
@@ -630,7 +643,7 @@ a {
     border: 0px;
     border-radius: 0px;
     display: inline-block;
-    font-size: 120px;
+    font-size: 88px;
     font-weight: 200;
     line-height: 18px;
     opacity: 1;
@@ -651,22 +664,21 @@ a {
 /*Section-other-services*/
 
 .section-other-services {
-    width: 1150px;
+    max-width: 1150px;
+    width: auto;
     margin: 0 auto;
-    padding-top: 60px;
-    padding-bottom: 40px;
+    padding: 60px 26px 40px;
 }
 
 .serices-wrap-bottom {
-    padding: 80px 212px 0;
+    padding: 80px 57px 0;
 }
 
 /*Holiday*/
 
 .holiday {
     padding-top: 86px;
-    width: 1040px;
-    margin-left: 239px;
+    max-width: 1040px;
 }
 
 .holiday-wrap {
@@ -676,12 +688,11 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -moz-flex-direction: row;
-    -ms-flex-direction: row;
-    -o-flex-direction: row;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-            flex-direction: row;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
     -ms-flex-pack: distribute;
         justify-content: space-around;
     -ms-align-items: center;
@@ -691,24 +702,30 @@ a {
 }
 
 .holiday-item-1 {
-    width: 590px;
+    max-width: 590px;
+    min-width: 320px;
+    width: auto;
     height: 182px;
+    /* vertical-align: middle; */
+    padding: 15px;
     border-radius: 10px;
-    background: #fefcea; 
-    background: -webkit-radial-gradient(at top, #4516A3, #1F0E47); 
-    background: -o-radial-gradient(at top, #4516A3, #1F0E47); 
+    background: #fefcea;
+    background: -webkit-radial-gradient(at top, #4516A3, #1F0E47);
+    background: -o-radial-gradient(at top, #4516A3, #1F0E47);
     background: radial-gradient(at top, #4516A3, #1F0E47);
     -webkit-box-shadow: 0 48px 128px -39px #977E3A;
-            box-shadow: 0 48px 128px -39px #977E3A;
+    box-shadow: 0 48px 128px -39px #977E3A;
 }
 
 .holiday-item-1 p {
     font-size: 24px;
+    line-height: 32px;
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
     color: #fff;
     text-align: center;
     vertical-align: middle;
+    padding: 9px 10px 9px;
 }
 
 .holiday-item-1 a {
@@ -741,14 +758,15 @@ a {
 
 .holiday-item-2 p {
     text-align: center;
-    margin-top: 10px;
+    margin-top: -26px;
 }
 
 .safety {
     width: 186px;
     height: 186px;
-    border: 2px solid #3BC0C7;
+    /* border: 2px solid #3BC0C7; */
     border-radius: 50%;
+    margin-top: 44px;
 }
 
 .safety img {
@@ -786,9 +804,9 @@ a {
 /*Section-scripts*/
 
 .section-scripts {
-    width: 1550px;
-    max-width: 100%;
-    padding: 60px 0;
+    max-width: 1550px;
+    width: auto;
+    padding: 30px 0;
     margin: 0 auto;
 }
 
@@ -812,7 +830,7 @@ a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding-top: 65px;
+    padding-top: 18px;
 }
 
 .scripts-item-1, .scripts-item-2 {
@@ -835,7 +853,7 @@ a {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
-    margin-left: -173px;
+   /* margin-left: -173px;*/
     margin-bottom: 18px;
 }
 
@@ -846,7 +864,7 @@ a {
 }
 
 .scripts-wrap h3 {
-    font-size: 66px;
+    font-size: 31px;
     font-weight: 300;
     font-family: "Open Sans", sans-serif;
     line-height: 104px;
@@ -857,9 +875,10 @@ a {
 /*Section-price*/
 
 .section-price {
-    width: 1000px;
+    max-width: 1000px;
+    width: auto;
     margin: 0 auto;
-    margin-top: 55px;
+    margin-top: 40px;
     margin-bottom: 50px;
     color: #fff;
     font-family: "Open Sans", sans-serif;
@@ -867,14 +886,19 @@ a {
 }
 
 .price-table {
+    width: 663px;
+    min-width: 345px;
+    /* width: auto; */
     background-color: rgba(29, 12, 56, 0.3);
+    margin: 0 50px;
     margin: 0 auto;
     border-radius: 10px;
-    margin-top: 70px;
+    margin-top: 44px;
+    /* overflow-x: scroll; */
 }
 
 section h4 {
-    font-size: 24px;
+    font-size: 21px;
     font-weight: 300;
     margin: 0;
 }
@@ -885,7 +909,7 @@ section h4 {
 }
 
 .table-top {
-    padding-bottom: 33px;
+    padding-bottom: 27px;
 }
 
 .table-border {
@@ -893,8 +917,8 @@ section h4 {
 }
 
 .section-price th p {
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 13px;
+    font-weight: 300;
     margin: 0;
     margin-top: 9px;
 }
@@ -910,6 +934,7 @@ section h4 {
 
 .section-price td p {
     font-size: 36px;
+    font-weight: 600;
     margin: 0;
 }
 

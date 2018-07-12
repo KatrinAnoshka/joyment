@@ -1,0 +1,401 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+	/*Header-section*/
+
+	.tel {
+		display: none;
+	}
+
+	.top-center {
+		display: none;
+	}
+
+	.header-bottom-2 {
+		display: block!important;
+	}
+
+	/*Section-scripts*/
+
+	.bitva {
+		line-height: 80px!important;
+    }
+
+    .scripts-item-2 {
+	    padding-right: 208px;
+	}
+}
+
+@media only screen and (max-width : 1140px) {
+	
+	/*Section-scripts*/
+
+	.scripts-item-2 {
+	    padding-right: 184px;
+	}
+
+}
+
+@media only screen and (max-width : 1070px) {
+	
+	/*Section-scripts*/
+
+	.scripts-item-2 {
+	    padding-right: 195px;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+	/*Header-section*/
+
+	.header-bg {
+		height: auto;
+	}
+
+	.header-bg-wrap {
+		padding-right: 26px;
+	}
+	
+	/*Section-lzt-descr*/
+
+	.section-lzt-descr img {
+		width: 65%;
+	}
+
+	/*Section-slider*/
+
+	.carousel-control {
+		font-size: 98px;
+	}
+
+	/*Section-services*/
+
+	.serices-wrap-bottom {
+	    padding: 80px 93px 0;
+	}
+
+	/*Section-scripts*/
+	
+	.scripts-wrap {
+		padding-top: 37px;
+	}
+
+	.scripts-wrap h3 {
+		font-size: 31px;
+	}
+
+	.scripts-item-1 {
+	    padding-left: 259px;
+	}
+
+	.scripts-item-2 {
+	    padding-right: 29px;
+	}
+
+	.scripts-item-3 {
+	    padding-left: 125px;
+	}
+
+	.scripts-item-4 {
+	    padding-right: 0;
+	    padding-left: 96px;
+	}
+
+	.scripts-item-5 {
+	    padding-left: 207px;
+	}
+
+	/*Section-price*/
+
+	.price-table {
+		width: 752px;
+	}
+}
+
+@media only screen and (max-width : 850px) {
+	
+	/*Section-scripts*/
+
+	.scripts-item-1 {
+	    padding-left: 0;
+	}
+
+	.scripts-item-2 {
+	    padding-right: 0;
+	}
+
+	.scripts-item-3 {
+	    padding-left: 0;
+	}
+
+	.scripts-item-4 {
+	    padding-left: 0;
+	}
+
+	.scripts-item-5 {
+	    padding-left: 0;
+	}
+
+	.scripts-item {
+		justify-content: space-between;
+		padding: 0 20px;
+	}
+
+	.scripts-survive {
+		padding-right: 0;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	/*Section-menu*/
+
+	.header-bg-bottom {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: initial;
+	}
+
+	.header-bg-bottom p {
+		margin-top: 40px;
+	}
+
+	/*Section-lzt-descr*/
+
+	.section-wrap-top, .section-wrap-bottom {
+		padding-top: 0;
+	}
+
+	.section-wrap-top, .section-wrap-bottom, .serices-wrap-top, .serices-wrap-bottom {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.section-lzt-descr img {
+	    width: 35%;
+	    padding-top: 65px;
+	}
+
+	/*Section-other-services*/
+
+	.section-other-services img {
+	    padding-top: 65px;
+    	padding-left: 0;
+	}
+
+	.section-wrap-top {
+		padding-top: 0;
+	}
+
+	.serices-wrap-bottom {
+		padding-top: 0;
+	}
+
+	.holiday-wrap {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.holiday-item-1 {
+		max-width: 100%;
+	}
+
+	.safety {
+		border: none;
+	}
+
+	.holiday-item-2 {
+		padding-left: 0;
+    	padding-top: 64px;
+	}
+
+	.safety {
+		width: 140px;
+    	height: auto;
+	}
+
+	.holiday-item-2 p {
+		margin-top: 30px;
+	}
+
+	/*Section-scripts*/
+
+	.section-scripts {
+		padding-top: 40px;
+	}
+
+	.scripts-item {
+		flex-direction: column;
+    	align-items: flex-start;
+	}
+
+	.scripts-wrap p {
+		padding-left: 0;
+	}
+
+	.scripts-wrap h3 {
+		margin-top: 30px;
+	}
+
+	.scripts-wrap {
+		padding-top: 0;
+	}
+
+	/*Section-slider*/
+
+	.container-fluid {
+		margin-top: 20px;
+	}
+
+	.span-3-1 {
+		display: none!important;
+	}
+
+	.item {
+		height: 500px;
+	}
+
+	.row-fluid .span3 {
+		width: 50%;
+	}
+	
+	/*Section-prices*/
+	
+	.section-price button.booked {
+		width: 183px;
+	}
+
+	.price-table {
+		width: 650px;
+	}
+
+	.section-price th p {
+		font-size: 13px;
+		font-weight: 300;
+	}
+
+	.table-top {
+	    padding-bottom: 27px;
+	}
+
+	section h4 {
+		font-size: 22px;
+	}
+
+	/*Section-contacts*/
+
+	.section-contacts h3 {
+		font-size: 52px;
+		margin-bottom: 20px;
+	}
+
+	.contacts-item {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		-ms-align-items: flex-start;
+		align-items: flex-start;
+		padding-top: 25px;
+	}
+	
+	.contacts-wrap {
+		-ms-align-items: flex-start;
+		align-items: flex-start;
+		padding-left: 25px;
+    	padding-right: 25px;
+	}
+
+	.contacts-item p {
+		font-weight: 600;
+    	font-size: 31px;
+    	padding-left: 0;
+    	padding-top: 10px;
+	}
+
+	.contacts-item span {
+		padding-top: 25px;
+	}
+
+	.cnt-2 {
+		padding-left: 0;
+	}
+
+	.cnt-2 p {
+		margin-top: 0;
+	}
+
+	hr {
+		display: none;
+	}
+}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width : 670px) {
+	
+	/*Section-prices*/
+
+	.price-table {
+	    display: none;
+	}
+
+	.price-table-2 {
+		display: block;
+	}
+}
+
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
