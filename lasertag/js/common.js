@@ -27,4 +27,14 @@ $(document).ready(function() {
 	$('.carousel').carousel({
       interval: 6000
     })
+
+   /************* Всплывающая форма *************/
+
+	$(".booked").click(function() {
+		$("#callback h4").html($(this).text());
+		$("#callback input[name=formname]").val($(this).text());
+	}).magnificPopup({
+		type:"inline",
+		mainClass: 'mfp-forms'
+	});
 });
