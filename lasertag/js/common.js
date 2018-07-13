@@ -28,7 +28,7 @@ $(document).ready(function() {
       interval: 6000
     })
 
-   /************* Всплывающая форма *************/
+/* Pop-up-form */
 
 	$(".booked").click(function() {
 		$("#callback h4").html($(this).text());
@@ -36,5 +36,21 @@ $(document).ready(function() {
 	}).magnificPopup({
 		type:"inline",
 		mainClass: 'mfp-forms'
+	});
+
+/* Adaptive menu */
+
+    (function($){
+      $(function() {
+        $('.menu__icon').on('click', function() {
+          $(this).closest('.mob-wrap').toggleClass('menu_state_open');
+        });
+      });
+    })(jQuery);
+
+/* Input calendar */
+
+	$("#datetime1").focus( function() {
+	    $(this).attr({type: 'datetime-local'});
 	});
 });
