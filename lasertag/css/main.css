@@ -1340,6 +1340,7 @@ form .button_wrap {
     -webkit-box-direction: normal;
             flex-direction: column;
     padding: 10px 26px;
+    border-bottom: 1px solid rgb(64, 71, 90);
 }
 
 .mob-top, .mob-bottom {

@@ -21,5 +21,21 @@ $(document).ready(function() {
 		$(this).addClass('check');
 		$(this).parent().fadeOut('fast');
 	});
+
+/* Adaptive menu */
+
+    (function($){
+      $(function() {
+        $('.menu__icon').on('click', function() {
+          $(this).closest('.mob-wrap').toggleClass('menu_state_open');
+        });
+      });
+    })(jQuery);
+
+/* Input calendar */
+
+	$("#datetime1").focus( function() {
+	    $(this).attr({type: 'datetime-local'});
+	});
 	
 });
