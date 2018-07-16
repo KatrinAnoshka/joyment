@@ -329,14 +329,11 @@ header a:hover {
     color: #fff;
     margin-bottom: 0;
 }
-.h1-text, .header-bg-bottom p {
+.h1-text {
     font-size: 21px;
     color: #fff;
-}
-.header-bg-bottom p {
-    margin-bottom: 0;
-}
-.h1-text {
+    width: 750px;
+    max-width: 100%;
     margin-bottom: 69px;
     margin-top: 50px;
 }
@@ -392,7 +389,7 @@ a.booked:active, a.booked:visited {
 /*Section-menu*/
 
 .section-menu {
-    max-width: 758px;
+    max-width: 302px;
     width: auto;
     height: 72px;
     margin: 0 auto;
@@ -448,9 +445,9 @@ a.booked:active, a.booked:visited {
 .section-menu-wrap a:hover {
     opacity: 1 !important;
 }
-/*Section-lzt-descr*/
+/*Section-complecs*/
 
-.section-lzt-descr {
+.section-complecs {
     max-width: 1150px;
     width: auto;
     margin: 0 auto;
@@ -464,6 +461,15 @@ section h2 {
     color: #fff;
     text-align: center;
 }
+
+.slick-center {
+    transform: scale(0.8);
+}
+
+img.slick-slide.slick-cloned {
+    transform: scale(0.4);
+}
+
 .section-wrap-top, .section-wrap-bottom, .serices-wrap-top, .serices-wrap-bottom {
     display: -moz-flex;
     display: -ms-flex;
@@ -513,6 +519,13 @@ section h2 {
 }
 .section-wrap-bottom {
     padding-top: 80px;
+}
+
+
+
+
+.span-3-1 {
+    transform: scale(0.4);
 }
 /*Section-slider*/
 
