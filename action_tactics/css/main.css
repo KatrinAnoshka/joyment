@@ -445,6 +445,7 @@ a.booked:active, a.booked:visited {
 }
 .section-menu-wrap a:hover .sct-menu-wrap span {
     color: #fee938;
+    opacity: 1;
 }
 /*Section-ection*/
 
