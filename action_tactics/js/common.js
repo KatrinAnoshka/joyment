@@ -22,12 +22,6 @@ $(document).ready(function() {
 		$(this).parent().fadeOut('fast');
 	});
 
-/* Slider-main */
-	
-	$('.carousel').carousel({
-      interval: 6000
-    })
-
 /* Pop-up-form */
 
 	$(".booked").click(function() {
