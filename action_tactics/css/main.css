@@ -782,6 +782,8 @@ section h2 {
 
 .section-contacts hr {
     border: 1px solid #3BC0C7;
+    width: 29px;
+    color: #3BC0C7;
 }
 
 .cnt-1 {
@@ -809,7 +811,7 @@ form {
     border-radius: 24px;
 }
 
-form label {
+form label, .label-form {
     display: block;
     margin-top: 27px;
     border-bottom: 1px solid #fff;
