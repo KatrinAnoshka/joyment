@@ -1,0 +1,462 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+	/*Header-section*/
+
+	.tel {
+		display: none;
+	}
+
+	.top-center {
+		display: none;
+	}
+
+	.header-bottom-2 {
+		display: block!important;
+	}
+
+}
+
+@media only screen and (max-width : 1140px) {
+	
+
+}
+
+@media only screen and (max-width : 1070px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+	/*Header-section*/
+
+	.header-bg {
+		height: auto;
+	}
+
+	.header-bg-wrap {
+		padding-right: 26px;
+	}
+	
+	/*Section-ection*/
+
+	
+
+	/*Section-rules*/
+
+	.serices-wrap-bottom {
+	    padding: 80px 93px 0;
+	}
+
+}
+
+@media only screen and (max-width : 890px) {
+
+	/*Section-ection*/
+	
+	.section-wrap-top .ection-order {
+		order: 0;
+	}
+
+	.section-wrap-top img {
+		width: 30%;
+	}
+
+	.section-wrap-top .section-item {
+		width: 40%;
+		margin: auto;
+		padding-top: 35px;
+	}
+
+	.section-wrap-top {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.ection-top {
+		margin: auto;
+	}
+
+	.section-wrap-bottom {
+	    padding-top: 20px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	/*Section-menu*/
+
+	.header-bg-bottom {
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		        flex-direction: column;
+		-webkit-box-pack: start;
+		    -ms-flex-pack: start;
+		        justify-content: flex-start;
+		-webkit-box-align: initial;
+		    -ms-flex-align: initial;
+		        align-items: initial;
+	}
+
+	/*Section-ection*/
+
+	.section-wrap-top, .section-wrap-bottom {
+		padding: 0 26px 0;
+	}
+
+	.section-ection img {
+	    width: 60%;
+	    padding-top: 65px;
+	}
+
+	.ection-top hr {
+		margin-left: 0;
+		margin-right: 0;
+		margin: auto;
+	}
+
+	.ection-top {
+		padding-top: 45px;
+	}
+
+	.hr-bottom {
+		margin-top: 45px;
+	}
+	
+	.players-wrap {
+		justify-content: center;
+	}
+
+	.players-wrap p {
+		font-size: 21px;
+		padding-left: 30px;
+	}
+
+	.vs {
+		width: 150px!important;
+		height: 150px;
+		padding-top: 20px !important;
+	}
+
+	/*Section-rules*/
+
+	.section-rules img {
+	    padding-top: 65px;
+    	padding-left: 0;
+	}
+
+	.serices-wrap-top {
+		padding-top: 0;
+	}
+
+	.serices-wrap-bottom {
+		padding-top: 0;
+	}
+
+	.p-group {
+	    padding-top: 44px!important;
+	}
+
+	/*Section-shedule*/
+
+	.section-shedule {
+		padding-top: 40px;
+	}
+
+	/*Section-contacts*/
+
+	.section-contacts h3 {
+		font-size: 52px;
+		margin-bottom: 20px;
+	}
+
+	.contacts-item {
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		        flex-direction: column;
+		-ms-align-items: flex-start;
+		-webkit-box-align: start;
+		    -ms-flex-align: start;
+		        align-items: flex-start;
+		padding-top: 25px;
+	}
+	
+	.contacts-wrap {
+		-ms-align-items: flex-start;
+		-webkit-box-align: start;
+		    -ms-flex-align: start;
+		        align-items: flex-start;
+		padding-left: 25px;
+    	padding-right: 25px;
+	}
+
+	.contacts-item p {
+		font-weight: 600;
+    	font-size: 31px;
+    	padding-left: 0;
+    	padding-top: 10px;
+	}
+
+	.contacts-item span {
+		padding-top: 25px;
+	}
+
+	.cnt-2 {
+		padding-left: 0;
+	}
+
+	.cnt-2 p {
+		margin-top: 0;
+	}
+
+	.section-contacts hr {
+		display: none;
+	}
+
+	/* Mobile-menu */
+
+	.header-top, .header-bottom, .header-bottom-2 {
+		display: none!important;
+	}
+
+	.mobile-menu {
+		display: block;
+	}
+}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width : 670px) {
+
+	/*Section-ection*/
+
+	.section-ection {
+		padding-top: 38px;
+	}
+
+	.ection-top hr {
+		width: 300px;
+    	max-width: 100%;
+	}
+
+	.section-wrap-bottom {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.section-wrap-bottom img {
+		width: 25%;
+	}
+
+	.img-winner {
+	    width: 25%!important;
+	}
+
+	.item-hour {
+		padding-top: 20px;
+	}
+
+	.item-results {
+		padding-top: 20px;
+	}
+
+	.section-item-winner {
+	    padding-top: 0; 
+	}
+	
+	/*Section-rules*/
+
+	.section-rules {
+	    padding-top: 70px;
+	}
+
+	.section-rules .serices-wrap-top {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		-ms-align-items: center;
+		align-items: center;
+	}
+
+	.ection-oder-1 {
+	    order: 0;
+	}
+
+	.item-storm {
+		padding-top: 0;
+	}
+
+	.img-group {
+		padding-top: 40px!important;
+	}
+	
+	/*Section-contacts*/
+
+	.section-contacts {
+	    margin-top: 65px;
+	}
+
+	.section-contacts h3 {
+		margin-bottom: 0;
+	}
+
+}
+
+@media only screen and (max-width : 500px) {
+	
+	/*Header-section*/
+
+	.header-bg h1 {
+		font-size: 21px;
+		margin-top: 0;
+	}
+
+	.ection {
+	    font-size: 13px;
+	    padding-bottom: : 0;
+	    margin-top: 20px;
+	    margin-bottom: 0;
+	}
+
+	.header-bg-wrap {
+		padding-left: 26px;
+	    padding-top: 10px;
+	    padding-bottom: 29px;
+	}
+
+	.h1-text {
+		font-size: 13px;
+		line-height: 16px;
+		margin-top: 21px;
+    	margin-bottom: 44px;
+	}
+
+	a.booked {
+		width: 183px;
+		height: 63px;
+	}
+
+	/*Section-menu*/
+
+	.sct-menu-wrap span {
+		font-size: 13px;
+	}
+	
+	/*Section-ection*/
+
+	section h2 {
+		font-size: 23px;
+	}
+
+	.section-ection img {
+	    width: 60%;
+	    padding-top: 42px;
+	}
+
+	.img-hour {
+		width: 30%!important;
+	}
+
+	.img-winner, .item-results img {
+	    width: 35%!important;
+	}
+
+	.players-wrap p {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	/*Section-rules*/
+
+	.section-rules img {
+	    padding-left: 0;
+	    padding-top: 65px !important;
+	}
+	
+	.section-rules {
+		padding-bottom: 15px;
+	}
+
+	/* Section-shedule */
+
+	.scripts-wrap h3 {
+		margin-top: 0;
+	}
+
+	/* Section-contacts */
+
+	.section-contacts h3 {
+	    font-size: 23px;
+	}
+
+	.contacts-item span {
+	    font-size: 18px;
+	    font-weight: 400;
+	}
+
+	.contacts-item p {
+		font-size: 23px;
+	}
+
+	.contacts-item {
+		padding-top: 0;
+	}
+
+	.cnt-3 {
+	    margin-top: 40px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 450px) {
+
+	.section-rules img {
+	    padding-top: 42px;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
