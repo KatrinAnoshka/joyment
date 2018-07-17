@@ -26,21 +26,8 @@ $(document).ready(function() {
 	
 	$('.carousel').carousel({
       interval: 6000
-    })
-
-// // Slider-top
-
-//     $('.center').slick({
-// 		centerMode: true,
-// 		centerPadding: '90px',
-// 		slidesToShow: 2,
-//   		dots: true,
-//  		arrows: true,
-//         slidesToScroll: 1
-        
-// 	});
+    });
 		
-
 /* Pop-up-form */
 
 	$(".booked").click(function() {
@@ -66,4 +53,6 @@ $(document).ready(function() {
 	$("#datetime1").focus( function() {
 	    $(this).attr({type: 'datetime-local'});
 	});
+
+
 });
